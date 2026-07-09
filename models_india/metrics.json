@@ -1,0 +1,54 @@
+{
+  "dataset": "Synthetic India Credit Risk",
+  "best_model": "Logistic Regression",
+  "all_results": {
+    "Logistic Regression": {
+      "accuracy": 0.798,
+      "precision": 0.098,
+      "recall": 0.5263,
+      "f1": 0.1653,
+      "roc_auc": 0.8056,
+      "confusion_matrix": [
+        [
+          389,
+          92
+        ],
+        [
+          9,
+          10
+        ]
+      ]
+    },
+    "Random Forest": {
+      "accuracy": 0.934,
+      "precision": 0.0625,
+      "recall": 0.0526,
+      "f1": 0.0571,
+      "roc_auc": 0.7249,
+      "confusion_matrix": [
+        [
+          466,
+          15
+        ],
+        [
+          18,
+          1
+        ]
+      ]
+    }
+  },
+  "global_shap_importance": {
+    "credit_score": 0.5059708000149256,
+    "debt_to_income_pct": 0.48214415778296016,
+    "existing_emis_inr": 0.36380538382708527,
+    "prior_defaults": 0.3029329814742483,
+    "monthly_income_inr": 0.2915674194365865,
+    "city_tier": 0.1729202011276536,
+    "employment_type": 0.17162891075494938,
+    "loan_to_income_ratio": 0.14831395400628275,
+    "active_loans": 0.14487792081775813,
+    "residential_status": 0.13767180117074065
+  },
+  "dataset_size": 2500,
+  "default_rate": 0.0376
+}
