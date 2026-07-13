@@ -1,14 +1,3 @@
-"""
-Loan Default / Credit Risk Dashboard
-=======================================
-Interactive Streamlit app for:
-  1. Portfolio-level risk overview (for a lending/credit team)
-  2. Live credit risk scoring for a single applicant, with SHAP explanation
-     (which factors pushed the decision, and by how much)
-
-Run locally:  streamlit run app.py
-"""
-
 import streamlit as st
 import pandas as pd
 import numpy as np
