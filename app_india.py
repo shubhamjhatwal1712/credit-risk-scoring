@@ -1,9 +1,3 @@
-"""
-India Credit Risk Dashboard
-===========================
-Run locally: streamlit run app_india.py
-"""
-
 import json
 from pathlib import Path
 
